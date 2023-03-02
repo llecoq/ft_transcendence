@@ -32,7 +32,7 @@ Two-factor authentication can be enable via google authenticator.
 
 Wireframes designed beforehand with figma: [UX](https://www.figma.com/file/2p2laPUsfhpXwMmBWwHetP/Transcendence?node-id=0%3A1&t=zHXCE1uSwvsu1hXy-1)
 
-Database diagram: 
+<img src="./assets/two-factor%20authentication.png" width=1000>
 
 <img src="./assets/dbdiagram.png">
 
