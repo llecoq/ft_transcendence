@@ -4,6 +4,7 @@
   </a>
 
   <h2 align="center">ft_transcendence</h2>
+  <h3 align="center">Built with Node, React, Postgres, Socket.io, Konvajs & Material-UI</h3>
 
   <p align="center">
     This project is about creating a website for the mighty Pong contest!
@@ -27,6 +28,9 @@
 ## Quick start
 
 Thanks to this website, users will play Pong with others. featuring a nice user interface, a chat, and real-time multiplayer online games!
+Two-factor authentication can be enable via google authenticator.
+
+Wireframes designed beforehand with figma: [Simple UX](https://www.figma.com/file/2p2laPUsfhpXwMmBWwHetP/Transcendence?node-id=0%3A1&t=zHXCE1uSwvsu1hXy-1)
 
 ## The stack
 
@@ -42,6 +46,7 @@ Thanks to this website, users will play Pong with others. featuring a nice user 
 ### Front
 * [React](https://reactjs.org/)
 * [Material-Ui](https://material-ui.com/) : React UI framework
+* [Konvajs](https://konvajs.org/)
 
 ### API we used
 * [42's API](https://api.intra.42.fr/apidoc)
