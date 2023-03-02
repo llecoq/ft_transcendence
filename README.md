@@ -30,7 +30,11 @@
 Thanks to this website, users will play Pong with others. featuring a nice user interface, a chat, and real-time multiplayer online games!
 Two-factor authentication can be enable via google authenticator.
 
-Wireframes designed beforehand with figma: [Simple UX](https://www.figma.com/file/2p2laPUsfhpXwMmBWwHetP/Transcendence?node-id=0%3A1&t=zHXCE1uSwvsu1hXy-1)
+Wireframes designed beforehand with figma: [UX](https://www.figma.com/file/2p2laPUsfhpXwMmBWwHetP/Transcendence?node-id=0%3A1&t=zHXCE1uSwvsu1hXy-1)
+
+Database diagram: 
+
+<img src="./assets/dbdiagram.png">
 
 ## The stack
 
