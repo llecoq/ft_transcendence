@@ -1,0 +1,34 @@
+Tests Ariane :
+
+-----------------------------------------------------------------------------------------------
+Victor : 
+	- Status is breaking a lot of stuff (creating a PM, clicking on a user on right side bar) OK
+	- When adding status to user object, should check if "ret" is null BEFORE adding status otherwise error backend error OK
+	- BUG DRAwER CHAT INVITE --> When inviting to play from Chat, section ALL (not friends), the other user does not receive invite AND when trying to quit, infinite loop OK
+	- Docker + SSL  OK
+	- Anti-spam chat Je n'ai rien mis en place mais il faut tester si ca fait buger d'enviyer plein de msg
+	- ban et mute fix TO BE TESTED
+	- ajouter un utilisateur dans une conversation TO BE TESTED
+	- Status Not working TO BE TESTED
+	- When logged for the first time, the user is prompted to add information to their account (display name/nickname, avatar, and so forth). OK a verfier
+
+----------------------------------------------------------------------------------------------
+Louis :
+
+  Important:
+	- celui qui se fait inviter dans une partie n'affiche pas le player 2 parfois
+
+----------------------------------------------------------------------------------------------
+Mandatory stuff : 
+	- check/parser inputs dans front ET dans back 
+			--> sujet : Vous devez implémenter un système de validation  côté serveur pour les formulaires et toute requête utilisateur.
+			--> sujet de correc : Check the server for server-side validation/sanitization on forms and any user input. If this isn't done, the evaluation ends now.
+
+Checks before correction : 
+	- check gitignore
+	- remove TODO from repo
+	- remove .env from git --> sujet : Toutes les informations d’identification, clés API, variables env,
+				etc. doivent être enregistrées dans un fichier .env et ignoré par git.
+	- !! dev mode VS prod mod => Ils ont eu un problème d'erreur 500 à cause du routeur react qui fonctionne differemment en mode prod
+		erreur avec url du style : [url_du_front]/hjkahdkjhsjka......... (plus d'une centaine de chars) 
+			--> pour erreurs 500 -> try catch partout pour rediriger sur 404 
